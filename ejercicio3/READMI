@@ -1,0 +1,21 @@
+El programa que se encuentra en la siguiente hoja está incompleto, falta implementar los
+métodos que están resaltados en amarillo. Pero además, tiene mezclado en una única clase
+y único paquete, cuestiones de UI, lógica de negocios y acceso a datos.
+Se requiere:
+● Modifique y termine de implementar utilizando diseño en capas (invirtiendo la
+dependencias hacia model).
+● Implemente los métodos faltantes:
+○ todosLosConcursos(): Recupera del archivo concursos.txt los concursos si
+su inscripción se encuentra abierta. Y los muestra en el Combo.
+○ saveInscription(): Graba las personas que se inscriben en el archivo
+inscriptos.txt según el formato definido.
+• Implemente los métodos pero ahora leyendo y escribiendo en una base de datos
+relacional. Diseñe Usted la/s tabla/s de concursos e inscriptos.
+El archivo inscriptos.txt debe quedar así:
+apellido, nombre, teléfono, email, idconcurso
+Young, Angus, 4444-898789, angus@acdc.com, 1
+Johnson, Brian, 7789-658987, brian@acdc.com, 2
+..
+El archivo concursos.txt tiene la siguiente estructura:
+idconcurso, nombre, fechaInicioInscripcion, fechaFinInscripcion
+1, concurso x, 2020/06/01, 2020/07/01

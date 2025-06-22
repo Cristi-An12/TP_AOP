@@ -1,0 +1,2 @@
+1, Concurso de prueba, 2025-06-01, 2025-07-01
+1,Concurso de prueba,cris,milla,12345,crisr@gmial.com
